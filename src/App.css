@@ -1,0 +1,104 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.MainScreen
+{
+    display:  flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.navigator
+{
+    background-color: lightgrey;
+    
+    flex: 1;
+
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dashboard
+{
+    background-color: lightskyblue;
+    flex: 3;
+}
+.buttonExit
+{
+    background-color: red;
+    min-height: 5vh;
+    min-width: 5vh;
+    position: right;
+}
+.buttonInput
+{
+    background-color: lightgreen;
+    position: right;
+    min-height: 5vh;
+    min-width: 9vh;
+    
+}
+
+.inputName
+{  
+    background-color: white;
+
+    flex: 2;
+    display:  flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+
+
+
+
+    
+}
+.FIO
+{
+    position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 26;
+     width: 75vw;
+     height: 20px;
+    
+}
